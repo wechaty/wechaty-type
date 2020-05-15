@@ -1,6 +1,6 @@
 # wechaty type checker
 
-![wechaty-type](docs/images/logo??.jpeg)
+![wechaty-type](docs/images/logo.png)
 
 Make it simple to get wechaty type
 

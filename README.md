@@ -21,4 +21,9 @@ npm install wechaty-type-checker
 
 ```ts
 import { isOfficialId } from 'wechaty-type-checker'
+
+const result = isOfficialId('bot-sentry')
+if (result) {
+  console.log('bot sentry is official account')
+}
 ```

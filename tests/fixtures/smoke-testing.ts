@@ -1,7 +1,7 @@
 #!/usr/bin/env ts-node
 import {
   VERSION,
-}                       from 'wechaty-type'
+}                       from 'wechaty-type-checker'
 
 async function main () {
   if (VERSION === '0.0.0') {

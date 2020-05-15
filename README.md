@@ -1,24 +1,24 @@
-# wechaty type
+# wechaty type checker
 
 ![wechaty-type](docs/images/logo??.jpeg)
 
 Make it simple to get wechaty type
 
-- Message
 - Contact
 - Room
 - Offical Account
-- Wechat Work
+- WeChat Work Contact
+- WeChat Work Room
 ...
 
 ## Install
 
 ```shell
-npm install wechaty-type
+npm install wechaty-type-checker
 ```
 
 ## Run
 
 ```ts
-import WechatyType from 'wechaty-type'
+import { isOfficialId } from 'wechaty-type-checker'
 ```

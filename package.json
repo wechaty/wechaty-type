@@ -1,5 +1,5 @@
 {
-  "name": "wechaty-type",
+  "name": "wechaty-type-checker",
   "version": "0.2.6",
   "description": "make it simple to get wechaty type",
   "main": "dist/src/index.js",
@@ -12,23 +12,21 @@
     "lint:md": "markdownlint README.md",
     "lint:ts": "tsc --noEmit",
     "lint:es": "eslint --ignore-pattern tests/fixtures/ '{bin,examples,scripts,src,tests}/**/*.ts'",
-    "example": "ts-node examples/ding-dong-bot.ts",
-    "start": "npm run example",
     "test": "npm run lint && npm run test:unit",
     "test:pack": "bash -x scripts/npm-pack-testing.sh",
     "test:unit": "blue-tape -r ts-node/register \"src/**/*.spec.ts\" \"src/*.spec.ts\" \"tests/*.spec.ts\" \"tests/**/*.spec.ts\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wechaty/wechaty-type.git"
+    "url": "git+https://github.com/wechaty/wechaty-type-checker.git"
   },
   "keywords": [],
   "author": "Jiarui LI (李佳芮) <ruiruibupt@gmail.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/wechaty/wechaty-type/issues"
+    "url": "https://github.com/wechaty/wechaty-type-checker/issues"
   },
-  "homepage": "https://github.com/wechaty/wechaty-type#readme",
+  "homepage": "https://github.com/wechaty/wechaty-type-checker#readme",
   "dependencies": {
   },
   "devDependencies": {

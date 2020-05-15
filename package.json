@@ -27,8 +27,7 @@
     "url": "https://github.com/wechaty/wechaty-type-checker/issues"
   },
   "homepage": "https://github.com/wechaty/wechaty-type-checker#readme",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@chatie/eslint-config": "^0.8.1",
     "@chatie/git-scripts": "^0.6.1",

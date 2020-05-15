@@ -5,9 +5,9 @@ import {
 }             from 'tstest'
 
 import {
-  wechatyType,
+  isOfficialId,
 }                               from '../src/'
 
 test('integration testing', async (t) => {
-  t.ok(wechatyType, 'should tbw')
+  t.ok(isOfficialId, 'should tbw')
 })

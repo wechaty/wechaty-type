@@ -30,7 +30,6 @@
   },
   "homepage": "https://github.com/wechaty/wechaty-type#readme",
   "dependencies": {
-    "botbuilder-ai": "^4.8.0"
   },
   "devDependencies": {
     "@chatie/eslint-config": "^0.8.1",

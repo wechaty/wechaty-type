@@ -1,6 +1,6 @@
 {
   "name": "wechaty-type-checker",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "make it simple to get wechaty type",
   "main": "dist/src/index.js",
   "typings": "dist/src/index.d.ts",
